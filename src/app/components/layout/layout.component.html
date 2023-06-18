@@ -1,0 +1,11 @@
+<div class="layout">
+  <div>
+    <app-search (reposResult)="onRepoItemSelected($event)"></app-search>
+  </div>
+
+  <div class="repo-container">
+    <div *ngFor="let repo of searchedRepos" class="repo-item">
+      <app-repo-item [repository]="repo"></app-repo-item>
+    </div>
+  </div>
+</div>

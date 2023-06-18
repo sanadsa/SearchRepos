@@ -1,0 +1,27 @@
+.card {
+  margin-bottom: 1rem;
+  border: none;
+  box-shadow: none;
+}
+
+.repo {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.25rem;
+}

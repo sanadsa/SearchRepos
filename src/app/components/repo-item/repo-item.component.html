@@ -1,0 +1,9 @@
+<div class="card">
+  <div class="repo">
+    <img [src]="repository.owner.avatar_url" alt="Card Image" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">{{ repository.name }}</h5>
+    </div>
+  </div>
+  <button (click)="bookmark()">Book</button>
+</div>
